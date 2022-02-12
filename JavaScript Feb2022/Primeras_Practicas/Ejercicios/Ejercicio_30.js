@@ -1,4 +1,6 @@
 function mayorNum(num1, num2) {
+
+    //var num2 = 6;
     
     if (num1 && num2) {
         if (num1 >= num2) {
@@ -17,7 +19,7 @@ function mayorNum(num1, num2) {
         //console.log("Uno o los dos numeros no se relleno")
         return ("Uno o los dos numeros no se relleno");
     }
-    //return true;
+    return true;
 }
 
 console.log(mayorNum(6,9))

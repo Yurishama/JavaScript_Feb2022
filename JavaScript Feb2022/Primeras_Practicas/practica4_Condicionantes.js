@@ -12,7 +12,9 @@ if (texto == 'Servidor OFF'){
 //Ejercicio avanzado = Ordenar un arreglo con burbuja
 
 //¿Qué hace esto?
-/*
+
+var time=2;
+
 if (time < 10) {
     greeting = "Good morning";
   } else if (time < 20) {
@@ -27,6 +29,11 @@ if (time < 10) {
       }
   }
 
+  var num=4;
+  var num2=3;
+  var foo=5;
+  var BarProp=2;
+  
 if( num <= num2 && foo > BarProp){
         num = 8
   }
@@ -47,7 +54,7 @@ if(notTrue){
 if(!notTrue){
     num = 8
 }
-*/
+
 
 // Switch
 

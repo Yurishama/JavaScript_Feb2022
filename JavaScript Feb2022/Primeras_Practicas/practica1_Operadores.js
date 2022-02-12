@@ -3,6 +3,7 @@
 
 
 //Aritméticos
+console.log('############################   Aritmeticos ')
 var a = 1;
 let b = 45;
 var c = 6;
@@ -23,7 +24,10 @@ console.log(a)
 console.log(--a)
 
 console.log("cadena",567 + '9');
+
+
 //Concatenar
+console.log('############################   Concatenar  ')
 console.log('cadena1'+'cadena2')
 console.log('cadena1','cadena2')
 
@@ -33,6 +37,7 @@ const diez = 10;
 console.log("Quince es " + (cinco + diez) + ' y no ' + (2 * diez + 2) + '.');
 
 // Operadores de asignación (operadores del signo igual)
+console.log('############################   Asignacion  ')
 
 var numero = 8;
 console.log('Variable: ', numero )
@@ -64,6 +69,8 @@ console.log(typeof z)
 console.log(typeof true)
 console.log(typeof 'true')
 
+
+console.log('############################   Desestructuracion  ')
 // Desestructuración
 
 var foo = ['one','two','three','four'];
@@ -100,6 +107,7 @@ console.log(var2 >= var1)
 console.log(var1>=3)
 
 //Operadores Logicos
+console.log('############################   Operadores logicos  ')
 console.log ('############################   AND  ')
 //AND
 

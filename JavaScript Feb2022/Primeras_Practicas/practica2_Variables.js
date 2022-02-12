@@ -2,6 +2,8 @@
 
 var saida;
 var reyes;
+
+console.log('############################   Variables dinamicas  ')
 //Variables dinamicas
 console.log(typeof saida);
 
@@ -51,7 +53,6 @@ console.log(num)
 
 
 //Arrays
-
 
 var dogs = ['boxer','Rex','Toby',9];
 console.log(dogs)
