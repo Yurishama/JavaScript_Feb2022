@@ -1,0 +1,14 @@
+{
+  "name": "pruebas_en_jest",
+  "version": "1.0.0",
+  "description": "primeras pruebas usando jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Saida Reyes",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
