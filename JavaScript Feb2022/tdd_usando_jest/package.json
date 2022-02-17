@@ -1,0 +1,14 @@
+{
+  "name": "tdd_usando_jest",
+  "version": "1.0.0",
+  "description": "Learning tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Saida Y Reyes",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
