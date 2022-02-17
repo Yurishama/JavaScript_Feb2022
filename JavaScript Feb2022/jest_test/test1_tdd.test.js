@@ -1,4 +1,3 @@
-
 const impresion =  requiere('./impresion');
 
 Test('Validar que se imprima una cadena de testo', ()=>{
