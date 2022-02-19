@@ -1,0 +1,14 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "Primeras pruebas en testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saida Reyes",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "testcafe": "^1.18.3"
+  }
+}
