@@ -114,4 +114,33 @@ test('Prueba12: Probar dar click en el radio button Windows 2', async t => {
         .expect(pagina.radioButtonWindows.checked).ok()
 });
 
+test('Prueba13: Probar seleccionar un elemento de un menu', async t =>{
+    await t
+        .click(pagina.menu)
+        .click(pagina.javascript)
 
+        .expect(pagina.javascript.exists).ok()
+        .expect(pagina.menu.selectedIndex).eql(1);
+});
+
+test('Prueba14: Dar click en un checkbox para activar un area de texto', async t =>{
+    await t
+        .click(pagina.triedCheckbox)
+        .typeText(pagina.textArea,'Primera linea')
+        .typeText(pagina.textArea, '\nSegunda linea')
+        .typeText(pagina.textArea, '\nTercera linea')
+        .wait(300)
+        .selectTextAreaContent(pagina.textArea,0,5)
+        .wait(300)
+        .pressKey('delete')
+        .wait(600)
+        .typeText(pagina.textArea, 'Remplaza todo por esto',{replace:true})
+        .expect(pagina.textArea.value).eql('Remplaza todo por esto')
+        .expect(pagina.textArea.value).notContains('linea')
+});
+
+test('Prueba 15: manejar un slider bar', async t =>{
+    await t
+        .click(pagina.triedCheckbox)
+        .dragToElement(pagina.slider.handle,pagina.slider.tick.withText('9'))
+});

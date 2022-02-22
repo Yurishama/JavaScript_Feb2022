@@ -16,6 +16,17 @@ class Page{
         this.radio_windows = Selector('input[type=radio][value="Windows"]');
         this.radioButtonWindows = Selector('#windows');
         this.radioButtonLinux = Selector('#linux');
+        this.menu = Selector('#preferred-interface');
+        this.javascript = Selector('#preferred-interface > option:nth-child(2)');
+        this.triedCheckbox = Selector('#tried-test-cafe');
+        this.textArea = Selector('#comments');
+        //Slider Bar
+        this.sliderObj = Selector('#slider');
+        this.slider = {
+            handle: Selector('.ui-slider-handle'),
+            tick: Selector('.slider-value')
+        }
+
 
         this.featureList = [
             new Feature('Support for testing on remote devices'),
